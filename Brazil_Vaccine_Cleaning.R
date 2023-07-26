@@ -195,5 +195,7 @@ vaccination_data5<-  vaccination_data4 %>%
 # Export data for use
 # 
 # 
-write.csv(vaccination_data5, file="Vaccine_data_clean_72023.csv")
+# 
+#write.csv(vaccination_data5, file=("Vaccine_data_clean_72023.csv"))
+#write.csv(vaccination_data5, file="Vaccine_data_clean_72023.csv")
 

@@ -22,7 +22,11 @@ library(readxl)
 # Import data: population, vaccination, deaths
 Pop_by_age <- read.csv("Pop_by_Age.csv")
 Pop_by_muni <- read.csv("code_cities.csv")
-Vaccinations <- read.csv("Vaccine_data_clean_72023.csv")
+
+# Saved file was too large to upload to github easily, so run code here. Can also write file on local machine and run from
+# there.
+source("Brazil_Vaccine_Cleaning.R")
+Vaccinations <- vaccination_data5 #read.csv("Vaccine_data_clean_72023.csv")
 Deaths <- read.csv("Deaths_clean_72023.csv")
 
 # Rename municipality variable for merging
